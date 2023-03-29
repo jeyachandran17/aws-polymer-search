@@ -23,7 +23,8 @@ function Application() {
     <div className="Application">
       <AppBar position="static">
         <Toolbar>
-          <Button color="inherit" onClick={()=>navigate('/')}>home</Button>
+          {/* <Button color="inherit" onClick={()=>navigate('/')}>home</Button> */}
+          <img src="https://www.logo.wine/a/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.svg" alt="logo" onClick={()=>navigate('/')} className="logo" />
         </Toolbar>
       </AppBar>
       <Routes>
