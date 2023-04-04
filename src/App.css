@@ -7,3 +7,118 @@
     margin-left: 5px;
 }
 
+.search-feild{
+    border: 2px;
+}
+
+.searchBox-page{
+    padding-left: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.search-Box-col1{
+    max-height: 100vh;
+    width: 280px;
+    overflow:auto;
+}
+
+.tiile-icon{
+    display: flex;
+    align-items: center;
+}
+
+.search-Box-col2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 170vh;
+}
+
+.search-Box-col2-row1{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0.5px 0px 0px slategrey;
+    margin-bottom: 10px;
+}
+
+.search-Box-col2-row2{
+    height: 80vh;
+    min-width: 170vh;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    justify-content: space-around;
+}
+
+.title-name-type1{
+    height: 30px;
+    border-radius: 5px 0px 0px 5px;
+    display: flex;
+    align-items: center;
+    border-left: 5px solid dodgerblue;
+}
+
+.title-name-type2{
+    height: 30px;
+    border-radius: 5px 0px 0px 5px;
+    display: flex;
+    align-items: center;
+    border-left: 5px solid green;
+}
+
+.title-name-type3{
+    height: 30px;
+    border-radius: 5px 0px 0px 5px;
+    display: flex;
+    align-items: center;
+    border-left: 5px solid orange;
+}
+
+.title-name-type4{
+    height: 30px;
+    border-radius: 5px 0px 0px 5px;
+    display: flex;
+    align-items: center;
+    border-left: 5px solid violet;
+}
+
+.title-name-type5{
+    height: 30px;
+    border-radius: 5px 0px 0px 5px;
+    display: flex;
+    align-items: center;
+    border-left: 5px solid hotpink;
+}
+
+.title-name-type1:hover,.title-name-type2:hover,
+.title-name-type3:hover,.title-name-type4:hover,.title-name-type5:hover{
+    box-shadow: 0.2px 0.2px 0px 0px gray;
+}
+
+span{
+    margin-left: 5px;
+}
+
+.search-Box-card{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: min-content;
+    width: 380px;
+    overflow-x: auto ;
+
+}
+
+.caed-content{
+    overflow: hidden;
+}
+
+.linkbutton{
+    display: flex;
+    gap: 10px;
+}
