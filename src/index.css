@@ -1,3 +1,54 @@
-body{
-  margin: 0px;
+.App {
+  background-color: whitesmoke;
+}
+
+
+/* LicenseName card */
+
+.LicenseName-card {
+  padding: 30px;
+  max-width: 500px;
+}
+
+
+span {
+  color: black;
+  text-decoration: none;
+}
+
+Link {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.search-Box-second {
+  display: flex;
+  height: 100vh;
+  min-width: 80%;
+  margin: 50px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.search-Box-details {
+  display: flex;
+  height: min-content;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.search-box-second-details {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px gray;
+}
+
+.search-Box-heading-title {
+  display: flex;
 }
